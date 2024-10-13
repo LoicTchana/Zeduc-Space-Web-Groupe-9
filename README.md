@@ -1,1 +1,1 @@
-Code pour le projet Application Web
+Ici, se trouvent les différents codes qui ont servis à la réalisation de notre projet: Qu'il s'agisse du code front end des différentes pages réalisées, de la base de données réalisée et le back-end avec php
