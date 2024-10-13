@@ -1,0 +1,21 @@
+DROP TABLE Utilisateur CASCADE ;
+
+DROP TABLE Employe CASCADE ;
+
+DROP TABLE Commande CASCADE ;
+
+DROP TABLE Plat CASCADE ;
+
+DROP TABLE Plat_vendu CASCADE ;
+
+DROP TABLE Menu CASCADE ;
+
+DROP TABLE Gerant CASCADE ;
+
+DROP TABLE Administrateur CASCADE ;
+
+DROP TABLE Parrainage CASCADE ;
+
+DROP TABLE Reclamation CASCADE ;
+
+DROP TABLE Menu_plat ;
