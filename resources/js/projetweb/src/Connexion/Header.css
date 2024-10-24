@@ -1,0 +1,22 @@
+.header {
+    background-color: #D4B35E; /* Couleur de fond */
+    padding: 10px 20px; /* Ajuste l'espacement selon tes besoins */
+    width:100%; /* Largeur complète par défaut */
+    height:100px;
+  }
+  
+  .logo {
+    width: 70px; /* Pour s'assurer que l'image ne dépasse pas */
+    height: auto; /* Maintenir le ratio de l'image */
+    border-radius:20px;
+    margin-top:5px;
+  }
+  
+  .header-text {
+    color: black; /* Couleur du texte */
+    margin: 0; /* Supprimer la marge par défaut */
+    font-family:'Inter';
+    font-size:15px;
+    font-style:italic;
+  }
+  

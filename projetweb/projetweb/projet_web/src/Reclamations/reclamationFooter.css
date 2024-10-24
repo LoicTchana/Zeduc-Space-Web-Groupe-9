@@ -1,0 +1,71 @@
+.footer{
+    background-color:#D4B35E; /* Couleur de fond */
+    height:100px;
+    position:absolute;
+    top:712px;
+    width:100%;
+}
+
+
+  
+  
+  
+  .footer-item1 {
+    margin-top:30px;
+    margin-left:20px;
+    display:flex;
+    gap:300px;
+  }
+
+  .TEL{
+    position:absolute;
+    top:30px;
+    left:50px;
+  }
+
+  .Zeduc{
+    position:absolute;
+    top:30px;
+    left:390px;
+  }
+
+  .footer-item2{
+    margin-top:10px;
+    margin-left:20px;
+    display:flex;
+    gap:300px;
+    
+  }
+
+  .localisation{
+    position:absolute;
+    top:70px;
+    left:60px;
+  }
+
+  .Message{
+    position:absolute;
+    top:70px;
+    left:390px;
+  }
+  
+  .footer-icon {
+    width: 24px; /* Taille des icônes */
+    margin-right: 8px; /* Espace entre l'icône et le texte */
+  }
+
+
+
+
+  
+
+
+/* Ajustements du footer pour les  petits écrans */
+@media (min-width: 300px) and (max-width: 1000px) {
+    .footer {
+        top:2550px;
+        height:auto;
+        width:1500px;
+       
+    }
+}

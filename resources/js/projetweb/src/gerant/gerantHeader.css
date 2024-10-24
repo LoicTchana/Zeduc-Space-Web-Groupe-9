@@ -1,0 +1,112 @@
+.header {
+  display: flex;
+  justify-content: space-between; /* Espace entre les éléments */
+  align-items: center; /* Centre verticalement les éléments */
+  background-color: #D4B35E; /* Couleur de fond */
+  width: 100vw; /* Largeur complète par défaut */
+  height: 90px;
+  border-radius: 10px;
+  padding: 0 20px; /* Ajoute un peu de padding sur les côtés */
+  
+}
+
+.me-auto .nav-link {
+  color: black; /* Change la couleur du texte en noir */
+}
+
+.me-auto .nav-link:hover {
+  color: gray; /* Optionnel : change la couleur au survol */
+}
+
+.logo {
+  width: 70px; /* Pour s'assurer que l'image ne dépasse pas */
+  height: 70px; /* Maintenir le ratio de l'image */
+  border-radius: 20px;
+}
+
+.Search {
+  display: flex; /* Affiche les icônes sur la même ligne */
+  align-items: center; /* Centre verticalement les icônes */
+}
+
+.Search img {
+  margin-left: 20px; /* Espacement entre les icônes */
+  cursor: pointer; /* Changer le curseur au survol */
+}
+
+.compte {
+  width: 50px;
+  height: auto;
+}
+
+.dropdown {
+  width: 25px;
+  height: auto;
+}
+
+/* Media queries pour différents types d'écrans */
+
+@media (max-width: 1024px) { /* Tablettes et petits ordinateurs */
+  .header {
+      height: 80px; /* Ajuste la hauteur */
+      padding: 0 15px; /* Réduit le padding */
+  }
+
+  .logo {
+      width: 60px; /* Réduit la taille du logo */
+      height: 60px; /* Maintient le ratio */
+  }
+
+  .Search img {
+      width: 40px; /* Réduit la taille des icônes */
+  }
+}
+
+@media (max-width: 768px) { /* Écrans de taille moyenne */
+  .header {
+      flex-direction: column; /* Les éléments s'empilent */
+      height: auto; /* Ajuste la hauteur */
+      padding: 10px; /* Réduit le padding */
+  }
+
+  .Search {
+      margin-top: 10px; /* Ajoute un espace au-dessus des icônes */
+      justify-content: center; /* Centre les icônes */
+  }
+
+  .logo {
+      width: 50px; /* Réduit encore la taille du logo */
+      height: 50px; /* Maintient le ratio */
+  }
+
+  .Search img {
+      width: 30px; /* Réduit encore la taille des icônes */
+  }
+
+  .compte {
+      width: 40px; /* Ajuste la taille de l'icône compte */
+  }
+}
+
+@media (max-width: 480px) { /* Smartphones */
+  .header {
+      padding: 5px; /* Réduit encore le padding */
+  }
+
+  .logo {
+      width: 40px; /* Réduit la taille du logo */
+      height: 40px; /* Maintient le ratio */
+  }
+
+  .Search img {
+      width: 25px; /* Réduit la taille des icônes */
+  }
+
+  .compte {
+      width: 30px; /* Ajuste la taille de l'icône compte */
+  }
+
+  .dropdown {
+      width: 20px; /* Ajuste la taille de l'icône dropdown */
+  }
+}

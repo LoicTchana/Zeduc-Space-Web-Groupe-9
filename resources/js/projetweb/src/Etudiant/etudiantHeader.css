@@ -1,0 +1,61 @@
+.header {
+    display:flex;
+    background-color: #D4B35E; /* Couleur de fond */
+   
+    width:100%; /* Largeur complète par défaut */
+    height:90px;
+    border-radius:10px;
+    
+  }
+  
+  .logo {
+    width: 90px; /* Pour s'assurer que l'image ne dépasse pas */
+    height:auto; /* Maintenir le ratio de l'image */
+    border-radius:20px;
+    margin-bottom:px;
+    margin-left:40px;
+    margin-right:50px;
+  }
+
+  .Search input{
+    margin-left:200px;
+    border:none;
+    border-radius:5px;
+    height:35px;
+    width:200px;
+    margin-top:10px;
+  }
+
+  .compte{
+    width:50px;
+    height:auto;
+    margin-left:700px;
+    
+  }
+
+  
+
+  .dropdown-menu {
+    position: absolute; /* Positionne le menu de manière absolue */
+    background-color: black; /* Fond blanc */
+    border: 1px solid #ccc; /* Bordure gris clair */
+    z-index: 1000; /* S'assure que le menu soit au-dessus des autres éléments */
+    padding: 10px; /* Un peu d'espace à l'intérieur */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Ombre pour le menu */
+}
+
+.dropdown-menu ul {
+    list-style: none; /* Enlève les puces */
+    padding: 0; /* Enlève le padding par défaut */
+    margin: 0; /* Enlève la marge par défaut */
+    background-color: black; /* Fond blanc */
+}
+
+.dropdown-menu li {
+    padding: 5px 10px; /* Espace autour des éléments de la liste */
+    cursor: pointer; /* Change le curseur au survol */
+}
+
+.dropdown-menu li:hover {
+    background-color: #f0f0f0; /* Change le fond au survol */
+}

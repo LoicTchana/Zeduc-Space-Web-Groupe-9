@@ -1,0 +1,61 @@
+.logo{
+    width: 200px; /* Pour s'assurer que l'image ne dépasse pas */
+    height: 100px; /* Maintenir le ratio de l'image */
+    border-radius:10px;
+    margin-top:5px;
+    margin-left:50px;
+}
+
+
+.inscription-header {
+    background-image: url('../assets/ndolè-plantain.png');
+    background-size: cover; /* Ajuste la taille de l'image */
+    height: 90vh; /* Prend toute la hauteur de la fenêtre */
+    width:auto;
+    
+  }
+
+  .inscription {
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: center;
+    width: 100%;
+    max-width: 400px; /* Ajustez cette valeur selon vos besoins */
+    margin: 0 auto; /* Centre l'élément */
+    padding: 20px; /* Ajoute un peu d'espace autour */
+   
+}
+
+label {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    margin-left:5px;
+}
+
+input {
+    width: 100%; /* Prend toute la largeur de l'élément parent */
+    padding: 10px;
+    margin-bottom: 15px; /* Espace entre les inputs */
+    border: none; /* Bordure simple */
+    border-radius: 4px; /* Coins arrondis pour les inputs */
+    height:30px;
+}
+
+.btninscription {
+    width: 100px; /* Prend toute la largeur */
+    padding: 5px;
+    margin-left:300px;
+    margin-top: 10px; /* Espace au-dessus du bouton */
+    border: none; /* Enlève la bordure par défaut */
+    border-radius: 4px; /* Coins arrondis pour les boutons */
+    background-color:#282424 ; /* Couleur de fond */
+    color: #9D9D9D; /* Couleur du texte */
+    cursor: pointer; /* Curseur pointer pour le bouton */
+}
+
+.btninscription:hover {
+    background-color: #897D7D; /* Couleur de fond au survol */
+}
+
+

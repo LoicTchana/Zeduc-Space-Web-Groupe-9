@@ -1,0 +1,8 @@
+.frame {
+    border: 1px solid #007bff; /* Couleur de bordure */
+    border-radius: 5px; /* Arrondir les coins */
+    padding: 20px; /* Espacement à l'intérieur du cadre */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Ombre pour le cadre */
+    background-color: white; /* Fond blanc */
+  }
+  
