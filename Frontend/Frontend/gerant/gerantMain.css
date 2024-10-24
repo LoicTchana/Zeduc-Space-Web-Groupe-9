@@ -1,0 +1,128 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 10px;
+  font-style: italic;
+}
+
+.line {
+  margin-bottom: 60px;
+}
+
+.content {
+  display: flex;
+  flex-wrap: wrap; /* Permet aux éléments de se plier sur plusieurs lignes */
+  width: 100%;
+  justify-content: center; /* Centre le contenu */
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-right: 20px; /* Espacement à droite pour les grands écrans */
+  margin-bottom: 20px; /* Espacement en bas pour les petits écrans */
+}
+
+.button {
+  width: 99%; /* Utilisation d'une largeur relative */
+  max-width: 300px; /* Largeur maximale pour les grands écrans */
+  height: 50px;
+  margin: 25px 0; /* Espacement vertical entre les boutons */
+  background-color: #D4B35E;
+  color: #000000;
+  border: none;
+  border-radius: 40px;
+  cursor: pointer;
+  font-size: 16px;
+  font-style: italic;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.button:hover {
+  background-color: #f0ca73;
+}
+
+.image-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-grow: 1; /* Prend tout l'espace restant */
+  position: relative; /* Pour un positionnement correct des éléments à l'intérieur */
+}
+
+.circle {
+  width: 70vw; /* Utilisation d'une largeur relative à la fenêtre */
+  height: 18vw; /* Hauteur égale à la largeur pour garder la forme du cercle */
+  max-width: 300px; /* Largeur maximale pour grands écrans */
+  max-height: 300px; /* Hauteur maximale pour grands écrans */
+  border-radius: 50%; /* Forme du cercle */
+  background-color: #D4B35E; /* Couleur de fond du cercle */
+  position: relative; /* Nécessaire pour le positionnement de l'image */
+  overflow: hidden; /* Cache les débordements */
+}
+
+.inner-image {
+  width: 30%; /* Largeur de l'image */
+  height: auto; /* Conserve le ratio de l'image */
+  position: absolute; /* Positionnement absolu pour placer l'image */
+  top: 0; /* Aligne l'image au-dessus du cercle */
+  left: 80%; /* Centre horizontalement */
+  top:35%;
+  transform: translate(-50%, -50%); /* Ajuste le décalage pour centrer horizontalement */
+  z-index: 1; /* S'assure que l'image est au-dessus du cercle */
+}
+
+/* Media Queries pour ajuster le style sur différentes tailles d'écran */
+@media (max-width: 600px) {
+  .circle {
+    width: 80vw; /* Plus grand sur les petits écrans */
+    height: 80vw; /* Garder le ratio */
+  }
+
+  .inner-image {
+    width: 50%; /* Ajuste la taille de l'image */
+  }
+}
+
+@media (min-width: 601px) and (max-width: 900px) {
+  .circle {
+    width: 70vw; /* Taille moyenne */
+    height: 70vw;
+  }
+
+  .inner-image {
+    width: 40%; /* Ajuste la taille de l'image */
+  }
+}
+
+
+/* Media Queries pour ajuster le style sur différentes tailles d'écran */
+@media (max-width: 600px) {
+  .circle {
+    width: 80vw; /* Plus grand sur les petits écrans */
+    height: 80vw; /* Garder le ratio */
+  }
+
+  .inner-image {
+    width: 50%; /* Ajuste la taille de l'image */
+  }
+}
+
+@media (min-width: 601px) and (max-width: 900px) {
+  .circle {
+    width: 70vw; /* Taille moyenne */
+    height: 70vw;
+  }
+
+  .inner-image {
+    width: 40%; /* Ajuste la taille de l'image */
+  }
+}

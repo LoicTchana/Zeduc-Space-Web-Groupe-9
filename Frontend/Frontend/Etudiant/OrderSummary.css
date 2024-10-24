@@ -1,0 +1,7 @@
+.tab{
+    background-image: url('../assets/ndolè-plantain.png');
+    background-size: cover; /* Ajuste la taille de l'image */
+    height: 90vh; /* Prend toute la hauteur de la fenêtre */
+    width:auto;
+}
+  
