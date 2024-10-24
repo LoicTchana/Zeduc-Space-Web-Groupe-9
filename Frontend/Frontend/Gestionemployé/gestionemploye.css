@@ -1,0 +1,43 @@
+/* GestionComptesEmployes.css */
+
+.text-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+button {
+    width: 250px; /* Largeur uniforme pour tous les boutons */
+    margin: 10px 0; /* Espacement vertical entre les boutons */
+    font-size: 16px; /* Taille de police pour les boutons */
+}
+
+/* Styles spécifiques pour chaque bouton */
+button.btn-primary {
+    background-color: #007bff; /* Couleur primaire */
+    border-color: #007bff; /* Bordure de couleur primaire */
+}
+
+button.btn-danger {
+    background-color: #dc3545; /* Couleur rouge pour supprimer */
+    border-color: #dc3545; /* Bordure rouge */
+}
+
+button.btn-warning {
+    background-color: #ffc107; /* Couleur jaune pour modifier */
+    border-color: #ffc107; /* Bordure jaune */
+}
+
+button.btn-info {
+    background-color: #17a2b8; /* Couleur cyan pour voir les comptes */
+    border-color: #17a2b8; /* Bordure cyan */
+}
+
+/* Styles pour les modals */
+.modal-header {
+    background-color: #f7f7f7; /* Couleur de fond pour l'en-tête du modal */
+}
+
+.modal-footer {
+    justify-content: space-between; /* Espacement des boutons dans le footer du modal */
+}

@@ -1,0 +1,112 @@
+/* main.css */
+
+
+
+.container {
+    display: flex;
+    height: 100vh;
+  }
+  
+  .left {
+    width: 50%;
+    background-size: cover;
+    background-position: center;
+    
+  }
+  
+  .right {
+    width: 35%;
+    background-color: #FFFFFF;
+  }
+
+  .imagerepas1{
+    width: 100%;
+    height:auto;
+  }
+  
+  .Connectiontext{
+   
+    margin-top: 80px; 
+    text-align: center; /* Centre le texte */
+    font-style:italic;
+    margin-left:140px;
+  }
+
+  .connection {
+    margin-left: 90px; 
+  }
+  
+  .connection label {
+    display: block; /* Chaque label occupera une ligne entière */
+    margin-bottom: 5px; /* Espace entre le label et l'input */
+  }
+  
+  .connection input {
+    margin-bottom: 15px; /* Espace entre les inputs */
+    width: 300px; /* Optionnel : rend l'input de largeur complète */
+    border-radius:8px;
+    border:none;
+    background-color:rgb(246, 243, 243);
+    height:40px;
+  
+  }
+
+  .btnconnection{
+    background-color:red;
+    align-self: flex-end; /* Aligne le bouton à droite */
+    padding: 5px 10px; /* Espacement interne pour le bouton */
+    color: white; /* Couleur du texte */
+    border: none; /* Supprime la bordure par défaut */
+    border-radius: 8px; /* Coins arrondis */
+    cursor: pointer; /* Change le curseur au survol */
+    margin-left:320px;
+    width:110px;
+    margin-bottom:40px;
+    transition: transform 0.1s;
+    font-weight:bold;
+  }
+
+  .btnconnection:hover{
+   background-color:grey;
+  }
+
+ .btnconnection:active {
+    transform: scale(0.95); /* Réduit la taille du bouton au clic */
+    background-color: #0056b3; /* Change la couleur au clic */
+}
+
+  a{
+    text-decoration: none;
+    color:grey;
+    margin-left:5px;
+  }
+  
+  .pas-de-compte{
+  
+  text-align: left; /* Aligne le texte à gauche */
+  align-self: flex-start; /* Aligne le paragraphe à gauche */
+ 
+  }
+
+
+  .btninscription{
+    background-color:black;
+    align-self: flex-end; /* Aligne le bouton à droite */
+    padding: 5px 10px; /* Espacement interne pour le bouton */
+    color: white; /* Couleur du texte */
+    border: none; /* Supprime la bordure par défaut */
+    border-radius: 8px; /* Coins arrondis */
+    cursor: pointer; /* Change le curseur au survol */
+    margin-left:300px;
+    width:110px;
+  }
+
+  .btninscription:hover{
+    
+    background-color: #0056b3; /* Change la couleur au clic */ 
+  }
+
+  .btninscription:active{
+    transform: scale(0.95); /* Réduit la taille du bouton au clic */
+    background-color: #0056b3; /* Change la couleur au clic */ 
+  }

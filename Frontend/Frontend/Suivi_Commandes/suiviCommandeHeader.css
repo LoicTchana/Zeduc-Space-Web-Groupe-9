@@ -1,0 +1,34 @@
+.header {
+    display:flex;
+    background-color: #D4B35E; /* Couleur de fond */
+    width:100%; /* Largeur complète par défaut */
+    height:90px;
+    border-radius:10px;
+    
+  }
+  
+  .logo {
+    width: 70px; /* Pour s'assurer que l'image ne dépasse pas */
+    height:70px; /* Maintenir le ratio de l'image */
+    border-radius:20px;
+    margin-left:40px;
+    margin-right:120px;
+  }
+
+
+  .Search{
+    margin-left:450px;
+  }
+  
+
+  .compte{
+    width:30px;
+    height:auto;
+    
+  }
+
+ .Search .dropdown{
+    width:25px;
+    height:auto;
+    margin-left:-1px;
+  }

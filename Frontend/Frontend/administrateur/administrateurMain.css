@@ -1,0 +1,73 @@
+.admin-page {
+    background-color: white; /* Couleur de fond pour la page */
+    min-height: 100vh; /* Hauteur minimale pour occuper toute la page */
+    position: relative;
+}
+
+
+
+.bottom-image {
+    position: absolute;
+    bottom: 0;
+    left: 50%; /* Positionne l'image à 50% de la largeur */
+    transform: translateX(-50%); /* Centre l'image horizontalement */
+    width: 10%; /* Pourcentage de la largeur de l'écran */
+    max-width: 100px; /* Hauteur maximale pour garder un ratio */
+    height: auto; /* Garde le ratio */
+    z-index: 2; /*  pour Mettre devant les autres images */
+}
+
+
+.custom-button {
+  width: 99%; /* Utilisation d'une largeur relative */
+  max-width: 300px; /* Largeur maximale pour les grands écrans */
+  height: 50px;
+  margin: 15px 0; /* Espacement vertical entre les boutons */
+  background-color: #D4B35E;
+  color: #000000;
+  border: none;
+  border-radius: 40px;
+  cursor: pointer;
+  font-size: 16px;
+  font-style: italic;
+  font-weight: bold;
+  margin-left: 40px;
+  transition: background-color 0.3s;
+    
+}
+
+.custom-button:hover {
+    background-color: #e0e0e0; /* Couleur de fond au survol */
+}
+
+.adminImage{
+    position: relative;
+    top: -40%;
+    left: 130%;
+    transform: translate(50%, 0);
+    max-width: 120%;
+    height: auto;
+    
+    
+}
+
+/* Ajustements pour les écrans de taille moyenne */
+@media (min-width: 576px) and (max-width: 1030px) {
+    .adminImage {
+        top: -50%; /* Modifier la position verticale pour les écrans moyens */
+        max-width: 300%;
+        height:auto;
+        margin-left:-220px;
+    }
+}
+
+
+/* Ajustements petits écrans */
+@media (min-width: 300px) and (max-width: 540px) {
+    .adminImage {
+        top: -110px; /* Modifier la position verticale pour les écrans moyens */
+        max-width: 100%;
+        height:auto;
+        margin-left:30px;
+    }
+}

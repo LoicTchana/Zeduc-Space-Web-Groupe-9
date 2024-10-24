@@ -1,0 +1,44 @@
+/* Style pour chaque carte */
+.card {
+    border: 1px solid #ccc;
+    border-radius: 8px; /* Coins arrondis */
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    
+  }
+  
+  /* Style de l'en-tête de la carte */
+  .card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 10px;
+  }
+  
+  /* Style pour l'image principale de la carte */
+  .main-image {
+    margin-right: 10px;
+  }
+  
+  /* Style pour les petites images */
+  .small-images img {
+    width: 30px; /* Taille des petites images */
+    height: 30px;
+    margin-left: 5px; /* Espacement entre les petites images */
+  }
+  
+  /* Style pour le corps de la carte */
+  .card-body {
+    padding: 10px;
+  }
+  
+  /* Style pour le prix */
+  .price {
+    font-weight: bold;
+  }
+  
+  /* Style pour la description */
+  .description {
+    color: #555; /* Couleur du texte de description */
+  }
